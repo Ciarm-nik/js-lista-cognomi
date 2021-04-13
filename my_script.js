@@ -1,11 +1,13 @@
 
 // 1. chiedi all’utente il cognome
-
+var inserisciCognome = prompt("Inserisci il tuo cognome!!!");
 
 // 2. inseriscilo in un array con altri cognomi: ‘Bianchi’, ‘Neri’, ‘Rossi’, ‘Verdi’, ‘Gialli’
-
+var listaCognomi = ["Bianchi", "Neri", "Rossi", "Verdi", "Gialli"];
+var lista_completa = listaCognomi.push(inserisciCognome);
 
 // 3. stampa la lista ordinata alfabeticamente
+console.log(listaCognomi.sort())
 
 
 
