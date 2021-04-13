@@ -9,4 +9,18 @@ var lista_completa = listaCognomi.push(inserisciCognome);
 console.log(listaCognomi.sort())
 
 // 4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
-console.log(listaCognomi.indexOf(inserisciCognome) +1)
+
+var i = 0;
+
+while (i < listaCognomi.length) {
+
+    var lista = document.getElementById("listaOrdinata")
+
+    lista.innerHTML += "<li>" + listaCognomi[i] + "</li>"
+
+    i++
+
+}
+
+
+
